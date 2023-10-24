@@ -1,0 +1,120 @@
+.AddMCQ{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.AddMCQForm{
+    display: flex;
+     flex-direction: column;
+    line-height: 5rem;
+    width: 40vw;
+    padding: 4rem;
+    box-shadow: 0 0 1rem  rgba(0, 0, 0, 0.1);
+}
+
+.AddMCQForm h1{
+    font-weight: bold;
+    color: #ef4339; 
+}
+
+.MCQCategory,.MCQMedium,.MCQHard,.MCQEasy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Category,.Easy,.Medium,.Hard{
+    width:20rem;
+    color: #383b42 ;
+    font-weight: bold;
+    font-size: 1.2rem; 
+}
+.Cateory-Input{
+    width:27.5vw;
+    outline: none; 
+    padding: 0.8rem; 
+    border: none;
+    border-bottom: 1px solid #C2C7D0;
+    border-radius: 1px ;
+    background-color: white;
+    font-size: 15px;
+}
+
+.Easy-Input{
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.Easy-Input:hover{
+    border-bottom-color: skyblue;
+}
+.Easy-Input::placeholder{
+    letter-spacing: 1.4px;
+}
+.Medium-Input{
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.Medium-Input:hover{
+    border-bottom-color: skyblue;
+}
+.Medium-Input::placeholder{
+   letter-spacing: 1.4px;
+}
+.Hard-Input{
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.Hard-Input:hover{
+    border-bottom-color: skyblue;
+}
+.Hard-Input::placeholder{
+    letter-spacing: 1.4px;
+}
+.AddnumberofMCQbutton{
+    cursor: pointer;
+    align-self:center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    background-color:#ef4339; 
+    box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align:center;
+    font-weight:1rem;
+    font-size:0.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    padding: 0.9rem;
+
+}
+
+.Easy-Input::-webkit-inner-spin-button,
+.Easy-Input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Hard-Input::-webkit-inner-spin-button,
+.Hard-Input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.Medium-Input::-webkit-inner-spin-button,
+.Medium-Input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

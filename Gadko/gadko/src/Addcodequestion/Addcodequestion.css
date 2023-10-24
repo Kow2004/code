@@ -1,0 +1,92 @@
+.Addcodequestion{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.Addcodequestionform{
+    line-height: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 4rem;
+    box-shadow: 0 0 1rem  rgba(0, 0, 0, 0.1);
+}
+.Addcodequestionform h1{
+    font-weight: bold;
+    color: #ef4339;
+    margin-bottom: 1rem;
+}
+
+.nofque,.Difficultlevel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nofque-label,.Difficultlevel-label{
+    display: inline-block;
+    width:8.5rem;
+    color: #383b42 ;
+    font-weight: bold;
+    font-size: 1.2rem;  
+}
+.nofque-Input{
+
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.nofque-Input:hover{
+    border-bottom-color: skyblue;
+}
+.nofque-Input::placeholder{
+    letter-spacing: 1.4px;
+}
+.Difficultlevel-Input{
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 27.5vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.Difficultlevel-Input:hover{
+    border-bottom-color: skyblue;
+}
+.Difficultlevel-Input::placeholder{
+    letter-spacing: 1.4px;
+}
+.Addcodequestion-button{
+    cursor: pointer;
+    align-self:center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    background-color:#ef4339; 
+    box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align:center;
+    font-weight:1rem;
+    font-size:0.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    padding: 0.9rem;
+}
+
+.Difficultlevel-Input::-webkit-inner-spin-button,
+.Difficultlevel-Input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.nofque-Input::-webkit-inner-spin-button,
+.nofque-Input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,67 @@
+
+.Signup{
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    /* background-image: url(""); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position:center center ; */
+}
+
+.Signup-form{
+    width: 50%;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.Signup-form form{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    padding: 8vh;
+    width: 25%;
+    box-shadow: 0 0 1rem  rgba(0, 0, 0, 0.1);
+}
+.Signup-form h1{
+    color: black;
+    display: flex;
+    padding-left: 7rem;
+    padding-bottom: 3rem;
+}
+label{
+    padding-bottom: 1rem;
+}
+
+.email,.Password,.cpassword,.Name{
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+
+
+.signupbutton{
+    background-color:dodgerblue; 
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align: center;
+    font-size: bold;
+    font-weight: bold;
+    width:6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    align-self: center;
+}
+
+.Signup h3{
+    color: black;
+    padding-left: 2.5rem;
+} 
+
+.Signup h3 span{
+    color:red;
+}

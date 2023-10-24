@@ -1,0 +1,14 @@
+.apexcharts-legend{
+   display: none;
+}
+
+.Colmnbarchart{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.apexcharts-menu-icon{
+    display: none;
+}

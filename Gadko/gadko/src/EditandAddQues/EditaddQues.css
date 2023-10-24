@@ -1,0 +1,73 @@
+.EditandAddQues{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.EditandAddQuesform{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 3rem;
+    box-shadow: 0 0 1rem  rgba(0, 0, 0, 0.1);
+}
+.EditandAddQuesform h1{
+    font-weight: bold;
+    color: #ef4339;
+    margin-bottom: 1rem;
+}
+.Question,.option1,.option2,.option3,.option4,.Correctoption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Question-label,.option1-label,.option2-label,.option3-label,.option4-label,.Correctoption-label{
+    display: inline-block;
+    width:8rem;
+    color: #383b42 ;
+    font-weight: bold;
+    font-size: 1.2rem;  
+}
+.Question-input{
+    padding-top: 0.7rem;
+    padding-left: 0.5rem;
+    
+    outline: none;  
+    border: 1px solid #C2C7D0;
+    width: 24vw;
+    
+}
+.option1-input,.option2-input,.option3-input,.option4-input,.Correctoption-input{
+    padding-bottom: 0.8rem;
+    outline: none;  
+    border: none;
+    width: 24vw;
+    border-bottom: 1px solid #C2C7D0;
+}
+.Question-input:hover,.option1-input:hover,.option2-input:hover,.option3-input:hover,.option4-input:hover,.Correctoption-input:hover{
+    border-color: skyblue;
+}
+.Question-input::placeholder,.option1-input::placeholder,.option2-input::placeholder,.option3-input::placeholder,.option4-input::placeholder,.Correctoption-input::placeholder{
+    letter-spacing: 1.4px;
+}
+
+.EditandAddQues-button{
+    cursor: pointer;
+    align-self:center;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    background-color:#ef4339; 
+    box-shadow: 0 15px 30px 0 rgba(239, 67, 57, 0.2);
+    color:rgb(232, 239, 233);
+    border: none;
+    text-align:center;
+    font-weight:1rem;
+    font-size:0.8rem;
+    width: 9rem;
+    border-radius: 2rem;
+    padding: 0.9rem;
+}
