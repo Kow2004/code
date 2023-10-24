@@ -1,0 +1,145 @@
+
+*{ 
+  background-color:lightskyblue;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.table-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.edit-btn{
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+
+.delete-btn{
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+table td button:hover {
+  background-color: #c82333;
+}
+
+.App-logo {
+  display: flex;
+  float: left;
+  margin: 10%;
+}
+.navigation-container {
+  background-color: #007bff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navigation-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-container ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navigation-container ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation-container ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navigation-container ul li a:hover {
+  text-decoration: underline;
+}
+
+.form-container {
+  max-width: 430px;
+  margin: auto auto;
+  margin-top: 208px;
+  padding: 30px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(186, 165, 165, 0.2);
+}
+.form-label {
+  display: block;
+  margin-bottom: 16px;
+}
+.email-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  
+}
+.firstname-input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+ 
+}
+.lastname-input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+.mobile-input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+.dob-input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+.form-submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-submit-button:hover {
+  background-color: #0056b3;
+}
