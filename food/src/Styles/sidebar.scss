@@ -1,0 +1,93 @@
+
+.navbar{
+    height: 90px;
+    color:#0A0A0A; 
+    background-color: #fff;
+    box-shadow: 0 3px 60px var(--shadow-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:15vw;
+    .logo{
+     font-size: 1.5em;
+     font-weight: bolder;
+     color: var(--primary-color);
+     text-shadow: 0 1px 3px var(--shadow-color);
+     span{ 
+         color:var(--text-color);
+     }
+    }
+    .nav-links{
+     a{   
+     text-transform: uppercase;
+     margin-left: 3em;
+     color: var(--text-light);
+     text-shadow: 0 1px 3px var(--shadow-color);
+     letter-spacing: 2px;
+     position: relative;
+ 
+     &::before{
+         content:'';
+         display: inline-block;
+         height: 3px;
+         width: 100%;
+         background-color: var(--primary-color);
+         bottom: -5px;
+         position:absolute;
+         transform: scaleX(0);
+         transition: transform getanimationduration(.2s) ease-in-out;
+     }
+     &:hover{
+         &::before{
+             transform: scaleX(1);  
+         }
+        &.active{
+         font-weight: bolder;
+         color: var(--primary-color);
+         }
+ 
+     }
+     }
+ }
+  .sidebar{
+     height:34px;
+     width: 8%;
+     border-radius: 5px;
+     position: relative;
+     display:none;
+     .bar{
+         height:7px;
+         width: 100%;
+         background-color: var(--text-color);
+         position:absolute;
+         &:nth-child(1){
+         top:0%;
+        }
+        &:nth-child(2){
+         top: 50%;
+         transform-origin:right;
+         transform:scaleX(0.8) translateY(-50%);
+        }
+        &:nth-child(3){
+         top: 100%;
+         transform-origin:right;
+         transform:scaleX(1.1) translateY(-100%);
+        }
+     }
+     &.active{
+         .bar{
+             transform-origin: center;
+             top:50%;
+             &:nth-child(1){
+                 transform:translate(0,-50%) rotate(45deg);
+             }
+             &:nth-child(2){
+                 transform:scale(0);
+             }
+             &:nth-child(3){
+                 transform: translate(0,-50%) rotate(-45deg);
+             }
+         }
+        }
+  }
+ }

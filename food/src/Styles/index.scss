@@ -1,0 +1,45 @@
+@import "src/Styles/About.scss";
+@import "src/Styles/Colors.scss";
+@import "src/Styles/Footer.scss";
+
+@function getanimationduration($duration:number){
+    @return calc(var(--animation-speed)*duration);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration:none;
+}
+body{
+    font-size: var(--font-size);
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:1350px){
+    .navbar{
+        .nav-links{
+            display: none;
+        }
+        .sidebar{
+            display: block;
+        }
+    }
+    .Abo{
+       
+        .About{
+            width: 100%;
+        }
+        .pic{
+            margin-top: 5%;
+            margin-left:0%;
+            width: 100%;
+        }
+       
+        flex-direction:column;
+        
+    }
+    
+}

@@ -1,0 +1,32 @@
+.footer{
+    padding-top: 3rem;
+    position: relative;
+    top:200px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 0 3px 60px var(--shadow-color);
+    color: var(--text-light);
+    letter-spacing: 2px;
+    background-color:var(--text-color);
+    &__items h6{
+       padding: 6px;
+    }
+    &__items h3{
+        padding-bottom: 9px;
+        color: var(--background-color);
+     }
+    .h6{
+        font-size: var(--font-size);
+    }
+    .logo{
+        font-size: 1.5em;
+        font-weight: bolder;
+        color: var(--primary-color);
+        text-shadow: 0 1px 3px var(--shadow-color);
+        span{ 
+            color:var(--background-light);
+        }
+       }
+
+}

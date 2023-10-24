@@ -1,0 +1,50 @@
+
+.Abo{
+    margin-top: 4rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    .About{
+        text-align: center;
+        width: 40%;
+        margin-top: 5%;
+        h1{
+            color: var(--text-light);
+        }
+        p{
+            margin-top: 2rem;
+            font-size: var(--font-size);
+            letter-spacing: 2px;
+            word-spacing: 3px;
+            color: var(--text-color);
+        }
+    }   
+    .pic{
+        display: grid;
+        width:40%;
+        border-radius: 30px;
+        box-shadow:rgba(0,0,0,0.2) var(--text-light);
+        //grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, 1fr);
+        div{
+            margin-top: 30px;
+        }
+       
+          img{
+             height: 124px;
+             width: 90%;
+             border-radius: 10px;
+         }
+         img:hover{
+            transform: scale(1.7);
+         }
+        // width: 60%;
+        // /* Remove position: absolute; */
+        // display: grid;
+        // grid-template-columns: repeat(3, 1fr); /* Use grid for columns */
+        // column-gap: 2rem;
+        // /* Remove grid-related properties */
+    }
+
+}
