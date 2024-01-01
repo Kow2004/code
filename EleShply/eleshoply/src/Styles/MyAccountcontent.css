@@ -1,0 +1,104 @@
+.MyAccountcontent{
+   background-color: #f3f6fb;
+   display: flex;
+   flex-direction:row;
+   padding:6% 3%;
+}
+.MyAccountcontent .footer-socialmedia{
+   display: flex;
+   flex-direction: column;
+}
+.MyA-content{
+  padding-left: 7%;
+}
+.MyA-content h2{
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 2em;
+}
+.login{
+   font-weight: 500;
+   font-size: 20px;
+   font-family: "Open Sans", "Helvetica Neue",sans-serif;
+   color: #333333;
+   line-height: 1.4;
+   text-transform: none;
+   padding-top: 5%;
+   padding-bottom: 3%;
+}
+.MyA-content form{
+   border:solid gray 0.2px;
+   width: 77vw;
+   display: flex;
+   flex-direction: column;
+   padding: 40px;
+}
+.MyA-content form input{
+  background-color: white;
+}
+.email{
+   outline:none;
+   padding: 1.5%;
+   border:1px solid white;
+}
+.password{
+   outline: none;
+   border:1px solid white;
+   width: 12vw;
+   padding: 1.1%;
+}
+.MyA-content form span{
+   padding: 1.1%;
+   background-color: white;
+   outline-color: white;
+   border-color: white;
+}
+.MyA-content form label{
+ color:gray;
+ border:none;
+}
+.pfield,.cfield{
+   display: flex;
+   padding-top: 17px;
+   
+}
+.email-label{
+ padding-bottom: 17px;
+}
+.password-label{
+   padding-top: 17px;
+   padding-right: 5px;
+}
+.checkbox-label{
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 5px;
+}
+.l-label{
+   padding-top: 20px;
+}
+.MyA-content form button{
+   width: 5vw;
+   line-height: 1;
+   background-color:black;
+   font-size: 15px;
+   font-weight: bolder;
+   padding: 12px 24px;
+   border-radius: 3px;
+   color:white;
+   fill: #fff;
+   text-align: center;
+   transition: all .3s;
+   opacity: 0.8;
+}
+.MyA-content form button:hover{
+  opacity: 1;
+}
+.MyA-content h4{
+   color: skyblue;
+}
+.MyA-content h4:hover{
+   color: red;
+}

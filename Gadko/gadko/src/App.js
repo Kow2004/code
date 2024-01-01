@@ -32,29 +32,29 @@ import ColumnbarChart from './Columnbarchart/Columnbarchart';
 //   );
 // // }
 
-// export default App;
-import ScreenSwitchChecker from './ScreenSwitchChecker';
+// // export default App;
+// import ScreenSwitchChecker from './ScreenSwitchChecker';
 function App() {
   
   return (
     <div className="App">
-     {/* <Cards/>
-     
+     <Cards/>
      <CreateChallenge/>
      <Signup/>
-     <Login/> <Addcodequestion/>
-      <AddEmployee/> */}
-      {/* <AddMCQ/> */}
-      {/* <Searchbar/> */}
-      {/* <Addcodequestion/> */}
-      {/* <AddParticipant/> */}
-      {/* <EditandAddQues/> */}
-      {/* <CandidateDetails/> */}
-      {/* <Candidates/> */}
-      {/* <Preventcopypaste /> */}
-      {/* <DoughnutChart/> */}
-      {/* <RadialBarChart/> */}
-      <ColumnbarChart/>
+     <Login/>
+      <Addcodequestion/>
+      <AddEmployee/>
+      <AddMCQ/>
+      <Searchbar/>
+      <Addcodequestion/>
+      <AddParticipant/>
+      <EditandAddQues/>
+      <CandidateDetails/>
+      <Candidates/>
+      <Preventcopypaste />
+      <DoughnutChart/>
+      <RadialBarChart/>
+      {/* <ColumnbarChart/> */}
     </div>
    
   );

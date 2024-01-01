@@ -1,0 +1,88 @@
+.Collections{
+    background-color:#f6f7fb;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    
+}
+.Collections-card1{
+    background-color:white;
+    width: 110%;
+    height: 110%;
+}
+.Collections-card2{
+    background-color:white;
+    width: 110%;
+    height: 110%;
+}
+.Collections-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 100px;
+    height: auto;
+    width: 100%;
+}
+.Collections-details h3 {
+    padding-top: 13%;
+    padding-left: 13%;
+    padding-bottom: 30%;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+.Collections-details h2{
+    padding-left: 13%;
+    padding-bottom:5%;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    
+}
+.Collections-details p{
+    padding-left: 13%;
+    padding-bottom: 5%;
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8em;
+    padding: 3%;
+    padding-left: 13%;
+}
+.Collections-images img{
+    display: block;
+    margin: auto;
+    width: 150%;
+    height: 150%;
+    object-fit: contain;
+   
+}
+.Collections-details button{
+    margin-left: 13%;
+    margin-top: 13%;
+    line-height: 1;
+    background-color:white;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color:black;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+
+.Collections-details button:hover{
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,41 @@
+
+.Searchbar input{
+    /* height:1000vh;
+    width: 1000vw; */
+    background-color: #4d5058;
+    /* opacity:0.5; */
+    
+
+}
+.Searchbar{
+    z-index: 1;
+    background-color: aqua;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.Searchbar-input{
+  outline:none;
+  border: none;
+  border-bottom: 2px solid white;
+  width: 100vw;
+  padding: 10%;
+}
+.Searchbar-input[placeholder]{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* .Searchbar-icon{
+
+} */

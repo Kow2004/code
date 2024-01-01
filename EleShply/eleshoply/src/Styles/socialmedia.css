@@ -1,0 +1,32 @@
+.icons1{
+    font-size: 24px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color:#3c5a99;
+    color: white;
+    padding: 10px; 
+  }
+  .icons2{
+        font-size: 24px;
+        margin: 8px;
+        border-radius: 50%;
+        background-color: #3498db;
+        color: white;
+        padding: 10px;   
+  }
+  .icons3 {
+    font-size: 24px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color:#1b78b7;
+    color: white;
+    padding: 10px; 
+  }
+  .icons4 {
+    font-size: 24px;
+    margin: 8px;
+    border-radius: 50%;
+    background-color:#c33672;
+    color: white;
+    padding: 10px; 
+  }

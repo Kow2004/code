@@ -1,0 +1,60 @@
+.Chooseus{
+    background-color:white;
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    padding-top: 4%;
+    padding-bottom:6%;
+    overflow:hidden;
+}
+.Chooseus h2{
+    color: #393D46;
+    font-family:"Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 3em;
+}
+.Chooseus h4{
+    color: #393D46;
+    font-family:"Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.Chooseus p{
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3em;
+}
+.Chooseus h5{
+    color: #393D46;
+    font-size: 15px;
+    padding-top: 2%;
+}
+.Chooseus-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20%;
+}
+.Chooseus-cards-guarantee{
+    padding: 14% 14% 0% 15%;
+    background-color: #f6f7fb;
+    width: 150%;
+    height: 120%;
+}
+.Chooseus-cards-shipping{
+    padding: 14% 14% 0% 15%;
+    background-color: #f6f7fb;
+    height: 120%;
+    width: 150%;
+}
+.Chooseus-cards-support{
+    padding: 14% 14% 0% 15%;
+    background-color: #f6f7fb;
+    height:120%;
+    width:150%;
+}
+.Chooseus h5:hover{
+    color: #f6f7fb;
+}

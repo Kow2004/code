@@ -1,0 +1,82 @@
+.contact-content .footer-socialmedia{
+    display: flex;
+    flex-direction:column;
+  }
+  .contact-content{
+    background-color: #f6f7fb;
+    display: flex;
+    flex-direction: row;
+    padding: 6% 3%;
+  }
+  .contact-header{
+    width: auto;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+  }
+  .contact-form{
+    font-family: "Poppins", Sans-serif;
+    margin-left: 70px;
+    background-color: white;
+    color: gray;
+    border:solid gray 0.2px;
+    width: 79vw;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .name{
+    display: flex;
+  }
+  .contact-form label{
+    font-size: 17px;
+  }
+.contact-form input{
+   margin:2% ;
+   margin-left: 0%;
+   font-family: "Poppins", Sans-serif;
+   outline:none;
+   border:1px solid white;
+   padding: 1.5%;
+   background-color: #f6f7fb;
+}
+.inputof-firstname,.inputof-lastname{
+  width: 36vw;
+  height: 6vh;
+}
+.inputof-message{
+    margin:2% ;
+    margin-left: 0%;
+    font-family: "Poppins", Sans-serif;
+    outline:none;
+    border:1px solid white;
+    padding: 1.5%;
+    background-color: #f6f7fb;
+    height: 15vh;
+}
+.contact-form input[placeholder]{
+    font-size: 16px;
+}
+.contact-form button{
+    width:19vw;
+    line-height: 1;
+    background-color:black;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 23px 14px;
+    border-radius: 3px;
+    color:white;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    opacity: 0.8;
+    align-self: center;
+
+}
+.contact-form button:hover{
+    opacity: 1;
+}

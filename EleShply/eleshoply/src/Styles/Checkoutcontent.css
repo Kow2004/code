@@ -1,0 +1,17 @@
+.Co-content .footer-socialmedia{
+  display: flex;
+  flex-direction:column;
+}
+.Co-content{
+    background-color: #f6f7fb;
+    display: flex;
+    padding: 6% 3%;
+}
+.Co-content h2{
+    padding-top: 1%;
+    padding-left: 7%;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+}

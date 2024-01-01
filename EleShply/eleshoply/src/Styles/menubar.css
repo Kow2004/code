@@ -1,0 +1,67 @@
+
+.bars{
+    display:flex;
+    height: 15vh;
+    width: 100vw;
+    overflow-x: hidden; 
+}
+.menubar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#393D46;
+    height: 15vh;
+    width: 8vw;
+}
+
+.title{
+    padding: 60px 0px 60px 0px;
+    background-color:#f6f7fb;
+    height: 15vh;
+    width: 72vw;
+    padding-left: 70px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   background-color:#f6f7fb; 
+   height: 15vh;
+   width:20vw;
+}
+.icon{
+    width:43px;
+    height: 25px;
+}
+.navbar button{
+    margin-right:50px;
+    line-height: 1;
+    background-color:black;
+    font-size: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    color:white;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+}
+.menubar-content{
+    background-color:#393D46;
+    color: white;
+    font-size: 15px;
+    line-height: 1;
+}
+.menubar-content li{
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.menubar-content li:hover{
+   background-color:#3f444b;
+}
+
+.menubar-content li a {
+    text-decoration: none; /* Remove underline on hover */
+    color: white; /* Set link color */
+  }
+  

@@ -1,0 +1,105 @@
+.productcard{
+    background-color:#f6f7fb;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+.productcard h2{
+    flex-wrap: wrap;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 10% 10% 2% 10%;
+}
+.productcard-cards{
+    padding-left: 10%;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap:55px;
+    column-gap:0px; 
+   
+}
+.productcard-card{
+    display: flex;
+    flex-direction:row;
+    height:auto;
+    width: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+ /* .productcard-card{
+    position:absolute;
+} */
+/* .productcard-card img,.productcard-card .sale{
+    position:absolute;
+}  */
+.productcard-card img{
+    padding: 10%;
+    margin-bottom: 0%;
+}
+.productcard-card .sale{
+   background-color: red;
+   width:60px;
+   height: 20px;
+   margin: 0px;
+    color: white;
+}
+.product{
+    /* padding-left: 5px; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width:80%;
+    /* align-items: center;
+    justify-content: center; */
+    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.09); */
+
+}
+.productcard-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.productcard-card-content  h2{
+    margin-top: 0%;
+    padding-top:0px;;
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.productcard-card-content p{
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.2em;
+}
+.productcard-card-content span{
+    text-decoration: line-through;
+    padding-right: 4%;
+}
+
+.atc{
+    display: block;
+    margin: 15px 15px;
+    padding: 6%  10%;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #333;
+    font-weight: 400;
+}
+.atc-cart{
+    margin-right:15px;
+}

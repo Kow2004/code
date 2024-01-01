@@ -1,0 +1,72 @@
+.Winterwear{
+    background-color:#f6f7fb;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:0%;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.Winterwear-content{
+  padding-left:20% ;
+  background-color: white;
+  height: 110%;
+  width: 100%;
+}
+.Winterwear-image{
+    background: white;
+    height: 110%;
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.Winterwear-image img{
+    width: 90%;
+}
+.Winterwear-content h2{
+    color: #393D46;
+    font-family: "Poppins", Sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    padding-top: 35%;
+}
+.Winterwear-content p{
+    color: #68768E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.2em;
+    padding-top: 5%;
+}
+#price{
+    margin-top: 27%;
+}
+.Winterwear-content p span{
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.Winterwear button{
+    width: 35%;
+    display: inline-block;
+    line-height: 1;
+    background-color:#f6f7fb;
+    font-size: 15px;
+    padding: 15px 24px;
+    border-radius: 3px;
+    color:black;
+    fill: #fff;
+    text-align: center;
+    transition: all .3s;
+    margin-top: 9%;
+}
+.Winterwear button:hover{
+    background-color: black;
+    color: white;
+}

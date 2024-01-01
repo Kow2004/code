@@ -1,7 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import logo from '/home/divum/Documents/kowlaya/fun/src/components/Divum_Logo .svg';
 import { BrowserRouter as Router, Route, Link, Routes, useNavigate } from 'react-router-dom';
 import Form from './Form';
 
@@ -61,7 +60,7 @@ function UserDetails({setIsEdit,setEditValue}) {
   return (
     <>
       <div className="output">
-        <img src={logo} className="App-logo" alt='loading image' /><br></br>
+        <img src="/" className="App-logo" alt='loading image' /><br></br>
         <div className="navigation-container">
           <nav>
             <ul>
